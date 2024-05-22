@@ -1,0 +1,78 @@
+.main-content {
+    border: solid 2px black;
+    width: 65%;
+  }
+  .main-content h3{
+    font-family: 'Megrim', cursive;
+  }
+
+  .section h2 {
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .assessment-cards {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    flex-shrink: 1;
+  }
+
+  .search-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .search-bar {
+    width: 94.5%;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+  }
+  
+ .Top{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ }
+
+ .Top p{
+  font-weight: bold;
+  margin-bottom: 10px;
+ }
+
+ .head{
+  margin-left: 20px;
+  margin-top:15px;
+  margin-right: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .head h4{
+  color: blueviolet;
+  cursor: pointer;
+ }
+
+ .head h4:hover{
+  text-decoration: underline;
+ }
+
+ .head p{
+  font-size: 25px;
+  margin-right: 4px;
+  cursor: pointer;
+ }
